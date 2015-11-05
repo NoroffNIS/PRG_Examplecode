@@ -1,0 +1,13 @@
+modulus.c: In function 'int main()':
+modulus.c:6:3: error: 'var' was not declared in this scope
+   var i=0;
+   ^
+modulus.c:6:7: error: expected ';' before 'i'
+   var i=0;
+       ^
+modulus.c:7:7: error: 'i' was not declared in this scope
+   for(i<10;i++){
+       ^
+modulus.c:7:15: error: expected ';' before ')' token
+   for(i<10;i++){
+               ^
