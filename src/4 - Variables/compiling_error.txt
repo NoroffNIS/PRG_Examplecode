@@ -1,0 +1,23 @@
+uary4_6.c:10:9: warning: missing terminating " character [enabled by default]
+  printf("Summarization is:
+         ^
+uary4_6.c:10:2: error: missing terminating " character
+  printf("Summarization is:
+  ^
+uary4_6.c:11:11: error: stray '\' in program
+           \n %f\n", sum );
+           ^
+uary4_6.c:11:11: error: stray '\' in program
+uary4_6.c:11:18: warning: missing terminating " character [enabled by default]
+           \n %f\n", sum );
+                  ^
+uary4_6.c:11:11: error: missing terminating " character
+           \n %f\n", sum );
+           ^
+uary4_6.c: In function 'int main()':
+uary4_6.c:11:12: error: 'n' was not declared in this scope
+           \n %f\n", sum );
+            ^
+uary4_6.c:11:15: error: 'f' was not declared in this scope
+           \n %f\n", sum );
+               ^

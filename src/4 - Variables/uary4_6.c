@@ -3,8 +3,14 @@
 /* function main begins program execution*/
 int main(void)
 {
-	printf("Halla WebStudent!\n");
-return 0;
+  int sum = 230;
+
+  sum = 3- -2;
+
+	printf("Summarization is:
+          \n %f\n", sum );
+
+	return 0;
 }
 
 /*end function main*/

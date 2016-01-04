@@ -8,11 +8,10 @@ int areal(int i, int y)
 	return resultat;
 }
 
-int main()
+int main(void)
 {
 	int sum;
 	sum = areal (3, 4);
 	printf( "Arealet er %d. \n", sum);
 	return 0;
 }
-

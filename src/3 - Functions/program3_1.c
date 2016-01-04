@@ -10,7 +10,7 @@ int main(void)
 
 	printf( "Enter first number:\n" );
 	scanf( "%d", &numberOne ); //reads the first number
-scanf( "%d", &numberOne );
+	scanf( "%d", &numberOne );
 
 	printf( "Enter second number:\n" );
 	scanf( "%d", &numberTwo ); //reads the second number
@@ -21,4 +21,3 @@ scanf( "%d", &numberOne );
 
 	return 0; //indicates a success
 } //ends the main function
-
