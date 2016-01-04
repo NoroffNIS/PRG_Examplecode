@@ -6,7 +6,7 @@ struct card		//strukturdefinisjon
 	char *suit;	//definerer pekeren suit
 };
 
-int main(void)
+int program19_8(void)
 {
 	struct card aCard;	//definerer en variabel av typen struct card
 	struct card *cardPtr;	//definerer en peker til struct card

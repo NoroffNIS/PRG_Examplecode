@@ -8,7 +8,7 @@ struct clientData
 	double balance;
 };
 
-int main(void)
+int program21_4(void)
 {
 	FILE *cfPtr;
 
@@ -37,7 +37,7 @@ int main(void)
 
 		fclose (cfPtr);
 	}
-	
+
 	return 0;
 }
 

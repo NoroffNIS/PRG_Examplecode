@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program5_1()
 {
 	char name[10];
 	printf(" Enter your name: \n" );

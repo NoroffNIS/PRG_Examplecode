@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-main()
+int program16_1()
 {
 	int i, j;
 
-	int studAvg[10] [2] = 
+	int studAvg[10] [2] =
 	{
 		{43,54},
 		{27,66},
@@ -26,7 +26,7 @@ main()
 		}
 	printf( "\n");
 	}
-	
+
 	return 0;
 }
 

@@ -6,7 +6,7 @@ int areal(int i, int y)
   return resultat;
 }
 
-int main(void){
+int program4_3(void){
   int sum;
   sum=areal(3,4);
   printf("Arealet er %d.\n",sum);

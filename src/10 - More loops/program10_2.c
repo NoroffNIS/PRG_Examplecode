@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program10_2()
 {
 	int small, large, skip, meet;
 	printf("Enter a number between 10 and 100: \n");
@@ -22,7 +22,7 @@ int main()
 	{
 		small ++;
 		if(small % skip == 0)
-		{	
+		{
 			printf("Skipping %d\n", small);
 			continue;
 		}
@@ -39,7 +39,7 @@ int main()
 		{
 			printf("Victory to computer...\n");
 			break;
-		}	
+		}
 	}
 
 	printf("Small:  %d\n", small);

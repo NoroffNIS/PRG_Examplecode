@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int program19_1(void)
 {
 	printf("%d\n", 455);
 	printf("%i\n", 455);

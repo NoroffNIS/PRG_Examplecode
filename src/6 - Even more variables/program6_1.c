@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program6_1()
 {
 	printf("My integers are:\t %d bytes.\n", sizeof(int));
 	printf("My short ints are:\t %d bytes.\n", sizeof(short));

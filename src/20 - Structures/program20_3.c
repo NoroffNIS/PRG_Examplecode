@@ -5,7 +5,7 @@ enum months
 	Jan = 1, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
 };
 
-int main(void)
+int program20_3(void)
 {
 	enum months month;
 

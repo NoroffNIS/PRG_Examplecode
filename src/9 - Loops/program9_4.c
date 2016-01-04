@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program9_4()
 {
 	//declare a variable
 	int count, secNum;
@@ -21,7 +21,7 @@ int main()
 		printf("   ");
 		printf( "%d", secNum);
 		printf(" Both numbers are between 25 and 50\n");
-	}		
+	}
 
 	printf("Done...\n");
 	return 0;

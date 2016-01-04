@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* function main begins program execution*/
-int main(void)
+int program4_1(void)
 {
 	printf("Halla WebStudent!\n");
 return 0;

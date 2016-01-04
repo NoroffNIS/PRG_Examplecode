@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program15_1()
 {
 	float studAvg[10];
 	int index;
@@ -22,7 +22,7 @@ int main()
 	for (index = 0; index < 10; index++)
 	{
 		printf("%7d%20.2f          ", studNum, studAvg[index]);
-		
+
 		for (j = 1; j <= studAvg[index]; j++)
 		{
 			printf( "%c", '*' );
@@ -36,7 +36,7 @@ int main()
 //	average = (studAvg[0] + studAvg[1] + studAvg[2] + studAvg[3] + studAvg[4] + studAvg[5] + studAvg[6] + studAvg[7] + studAvg[8] + studAvg[9]) / 10;
 
 //	printf ( "%s%7d%, average);
-	
+
 	return 0;
 }
 

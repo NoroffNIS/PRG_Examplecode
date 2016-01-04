@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program6_3()
 {
 	float width = 2, length = 4, area = width * length;
 

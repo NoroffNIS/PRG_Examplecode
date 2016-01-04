@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /* function main begins program execution*/
-int main(void)
+int program2_1(void)
 {
-	printf("Hello Students!\n");
+	printf("Hello \n Students!\n");
 	return 0;
 }
 /*end function main*/

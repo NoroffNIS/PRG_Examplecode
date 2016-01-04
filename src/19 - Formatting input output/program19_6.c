@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int program19_6(void)
 {
 	int a;
 	int b;

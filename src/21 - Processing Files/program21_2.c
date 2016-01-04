@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int program21_2(void)
 {
 	/*variabler...*/
 	int account;
@@ -17,7 +17,7 @@ int main(void)
 	{
 		printf("%-10s%-13s%s\n", "Account", "Name", "Balance");
 		fscanf( cfPtr, "%d%s%lf", &account, name, &balance );
-	
+
 		while( !feof(cfPtr))
 		{
 			printf("%-10d%-13s%7.2f\n", account, name, balance);

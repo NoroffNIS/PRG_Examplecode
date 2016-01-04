@@ -8,7 +8,7 @@ struct clientData
 	double balance;
 };
 
-int main(void)
+int program21_3(void)
 {
 	FILE *cfPtr;
 
@@ -29,7 +29,7 @@ int main(void)
 		{
 			printf("Enter lastname, firstname and balance\n?");
 			fscanf(stdin, "%s%s%lf", client.lastName, client.firstName, &client.balance);
-			fseek(cfPtr, (client.acctNum - 1) * 
+			fseek(cfPtr, (client.acctNum - 1) *
 				sizeof(struct clientData), SEEK_SET);
 			fwrite( &client, sizeof(struct clientData), 1, cfPtr);
 			printf( "Enter accountnumber\n?" );
@@ -38,7 +38,7 @@ int main(void)
 
 		fclose (cfPtr);
 	}
-	
+
 	return 0;
 }
 

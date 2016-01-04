@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program6_2()
 {
 	float number1 = 1;
 	float number2 = 2;

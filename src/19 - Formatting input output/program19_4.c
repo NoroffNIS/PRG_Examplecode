@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int program19_4(void)
 {
 	int *ptr; /*definerer peker til int*/
 	int x = 12345;

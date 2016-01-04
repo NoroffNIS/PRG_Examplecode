@@ -8,7 +8,7 @@ enum Status { CONTINUE, WON, LOST };
 //function prototype...
 int rollDice();
 
-int main()
+int program13_2()
 {
 	int sum;
 	int myPoint;
@@ -55,7 +55,7 @@ int main()
 			}
 		}
 	}
-	
+
 	if (gameStatus == WON)
 	{
 		printf("Player Wins!\n");

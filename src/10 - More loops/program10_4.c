@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program10_4()
 {
 	int count;
 
@@ -11,7 +11,7 @@ int main()
 	{
 		printf("%d bottles on the wall!\n", count);
 		count --;
-	}		
+	}
 		while (count > 0);
 
 	printf("Done.\n");

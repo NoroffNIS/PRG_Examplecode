@@ -5,7 +5,7 @@
 #include <inttypes.h>
 
 /* function main begins program execution*/
-int main(void)
+int numbersize4_7(void)
 {
     printf("Storage size for int : %d \n", sizeof(int));
     printf("Minimum int positive value: %d\n", INT_MIN );

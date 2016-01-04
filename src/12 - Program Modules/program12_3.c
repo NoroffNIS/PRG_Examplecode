@@ -3,7 +3,7 @@
 // function prototype...
 int max(int a, int b, int c);
 
-int main()
+int program12_3()
 {
 	// variables...
 	int numberOne, numberTwo, numberThree;
@@ -19,7 +19,7 @@ int main()
 int max(int a, int b, int c)
 {
 	int max = a;
-	
+
 	if (b > max)
 		max = b;
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int program8_2()
 {
 	int grade;
 

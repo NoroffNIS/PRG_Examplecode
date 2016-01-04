@@ -3,7 +3,7 @@
 
 int linearSearch(const int array[], int key, int size);
 
-int main()
+int program15_3()
 {
 	int a[SIZE];	//this is the array...
 	int x;		//counter for elements...
@@ -36,7 +36,7 @@ int main()
 int linearSearch( const int array[], int key, int size)
 {
 	int n;
-	
+
 	for (n = 0; n < size; ++n)
 	{
 		if (array[n] == key)

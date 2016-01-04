@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+int program13_1()
 {
 	int numberOne = 0;
 	int numberTwo = 0;
@@ -13,13 +13,13 @@ int main()
 
 	int roll; /*represents roll counter*/
 	int face; /*represents one roll with value 1 to 6*/
-	
+
 	srand (time(NULL));
 
 	for ( roll = 1; roll <= 6000; roll ++)
 	{
 		face = 1 + rand() % 6;
-		
+
 		switch (face)
 		{
 			case 1:
@@ -42,7 +42,7 @@ int main()
 				break;
 		}
 	}
-	
+
 	printf( "%s%13s\n", "Face", "Frequency");
 	printf( 	"1%13d\n", numberOne);
 	printf( 	"2%13d\n", numberTwo);
