@@ -2,10 +2,10 @@
 
 void displayBits( unsigned value );
 
-int program20_2(void)
+int main(void)
 {
 	unsigned x;
-
+	
 	printf( "Enter desimal value: ");
 	scanf( "%u", &x);
 

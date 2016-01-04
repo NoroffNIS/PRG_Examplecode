@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program19_7(void)
+int main(void)
 {
 	char y[10];
 

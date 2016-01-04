@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* function main begins program execution*/
-int data_types4_5(void)
+int main(void)
 {
 
   double x_double = 1;

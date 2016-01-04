@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program8_3()
+int main()
 {
 	int count = 0;
 
@@ -10,10 +10,10 @@ int program8_3()
 		printf("%d", count);
 		printf(" loop\n");
 	}
-
+	
 	printf("Done...\n");
 
 	return 0;
 }
 
-
+		

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program19_2(void)
+int main(void)
 {
 	printf("%e\n", 1234567.89);
 	printf("%e\n", +1234567.89);

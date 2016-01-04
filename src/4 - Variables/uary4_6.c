@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* function main begins program execution*/
-int uary4_6(void)
+int main(void)
 {
   int sum = 230;
 

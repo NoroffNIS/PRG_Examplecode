@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program7_2()
+int main()
 {
 	int numberOne, numberTwo, numberThree = 100;
 	printf("Enter a number:\n");

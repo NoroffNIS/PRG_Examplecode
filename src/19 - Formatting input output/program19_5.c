@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program19_5(void)
+int main(void)
 {
 	int i = 123;
 	double f = 123.456;

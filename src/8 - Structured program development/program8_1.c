@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program8_1()
+int main()
 {
 	int userAge, legalAge = 18;
 

@@ -2,7 +2,7 @@
 #define PI 3.14159
 
 /* function main begins program execution*/
-int constant4_4(void)
+int main(void)
 {
 	double diameter = 10;
   double circumference;

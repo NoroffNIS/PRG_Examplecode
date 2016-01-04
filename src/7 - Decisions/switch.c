@@ -2,7 +2,7 @@
 
 void statements(char l[]);
 
-int switch() {
+int main() {
 
 char letter = 'A';
   printf("switch function:\n");

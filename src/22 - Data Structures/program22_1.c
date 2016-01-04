@@ -16,7 +16,7 @@ int isEmpty( ListNodePtr sPtr );
 void printList( ListNodePtr currentPtr );
 void instructions( void );
 
-int program22_1( void )
+int main( void )
 {
 	ListNodePtr startPtr = NULL;
 	int choice;
@@ -70,7 +70,7 @@ int program22_1( void )
 	}
 
 	printf( "End of run. \n" );
-
+	
 	return 0;
 }
 
@@ -135,7 +135,7 @@ char delete( ListNodePtr *sPtr, char value )
 		free( tempPtr );
 		return value;
 	}
-
+	
 	else
 	{
 		previousPtr = *sPtr;
@@ -170,11 +170,11 @@ void printList( ListNodePtr currentPtr )
 	{
 		printf( "List is empty. \n\n" );
 	}
-
+	
 	else
 	{
 		printf( "The list is:\n" );
-
+		
 		while (currentPtr != NULL )
 		{
 			printf( "%c --> ", currentPtr->data );

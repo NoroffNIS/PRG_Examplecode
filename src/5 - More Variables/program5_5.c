@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-program5_5()
+main()
 {
 	float ten = 10;
 	float three = 3;

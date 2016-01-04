@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int relation_operations()
+int main()
 {
   if( 'a' >= 'A' ){
    printf("'a' %d == 'A' %d : true\n", 'a', 'A');

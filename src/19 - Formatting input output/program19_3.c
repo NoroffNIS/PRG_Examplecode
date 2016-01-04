@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program19_3(void)
+int main(void)
 {
 	char tegn = 'A';
 	char streng[] = "Dette er en streng";

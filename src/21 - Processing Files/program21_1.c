@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program21_1(void)
+int main(void)
 {
 	/*variabler deklareres...*/
 	int account;

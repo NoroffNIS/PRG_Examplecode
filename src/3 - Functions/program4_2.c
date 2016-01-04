@@ -8,7 +8,7 @@ int areal(int i, int y)
 	return resultat;
 }
 
-int program3_2(void)
+int main(void)
 {
 	int sum;
 	sum = areal (3, 4);

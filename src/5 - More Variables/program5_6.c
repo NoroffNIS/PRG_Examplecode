@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-program5_6()
+main()
 {
 	float height = 4.1234;
 	float width = 5.1234;

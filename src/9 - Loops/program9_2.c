@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program9_2()
+int main()
 {
 	int count = 0;
 

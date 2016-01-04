@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program9_1()
+int main()
 {
 	int count = 0;
 loopstart: count = count + 1;
@@ -21,7 +21,7 @@ label1:
 
 	goto newloopstart;
 		printf(" Done...\n");
-
+	
 	return 0;
 }
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-program5_4()
+main()
 {
 	int number;
 	number = 913820923854784398457639982437983458698;

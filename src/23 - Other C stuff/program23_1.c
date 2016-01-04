@@ -3,7 +3,7 @@
 
 double average( int i, ... ); /*prototype*/
 
-int program23_1( void )
+int main( void )
 {
 	double w = 37.5;
 	double x = 22.5;
@@ -11,7 +11,7 @@ int program23_1( void )
 	double z = 10.2;
 
 	printf( "%s%.1f\n%s%.1f\n%s%.1f\n\n",
-		"w = ", w, "x = ", x, "y = ", y, "z = ", z );
+		"w = ", w, "x = ", x, "y = ", y, "z = ", z ); 
 	printf( "%s%.3f\n%s%.3f\n%s%.3f\n\n",
 		"Gjennomsnittet av w og x er ", average( 2, w, x ),
 		"Gjennomsnittat av w, x og y er ", average( 3, w, x, y ),

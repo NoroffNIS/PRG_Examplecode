@@ -2,9 +2,9 @@
 
 //Function main begins program execution
 
-int program3_1(void)
+int main(void)
 {
-	int numberOne; //First number to be input from user
+	//int numberOne; //First number to be input from user
 	int numberTwo; //Second number to be input from user
 	int totalSum; //variable containing the sum of first and second numbers
 

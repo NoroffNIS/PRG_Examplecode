@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-program5_3()
+main()
 {
 	char x;
 	char y;

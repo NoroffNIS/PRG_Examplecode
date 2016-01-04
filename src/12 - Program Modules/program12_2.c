@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include <math.h>
+//#include <math.h>
 
 int square(int y);
 
-int program12_2()
+int main()
 {
-	float number, result;
+	//float number, result;
+	float number;
 
 	printf("Please enter a number: ");
 	scanf("%f", &number);
 
-	result = square(number);
+	result = square(number);	
 
 	printf("The square root of %.0f is %.2f...\n", number, result);
 

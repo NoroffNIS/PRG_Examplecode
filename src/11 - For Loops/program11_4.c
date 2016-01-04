@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int program11_4()
+int main()
 {
 	int num;
-
+	
 	printf(" Enter a number between 1 and 5: ");
 	scanf("%d", &num);
 

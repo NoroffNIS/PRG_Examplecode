@@ -16,7 +16,7 @@ void fillDeck ( Card * const wDeck, const char * wFace[],
 void shuffle ( Card * const wDeck );
 void deal ( const Card * const wDeck );
 
-int program20_1 (void)
+int main (void)
 {
 	Card deck[52];
 

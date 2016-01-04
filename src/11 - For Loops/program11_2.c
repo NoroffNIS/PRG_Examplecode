@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program11_2()
+int main()
 {
 	int a, b;
 

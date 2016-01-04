@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program7_1()
+int main()
 {
 	int standardNum = 15, enteredNum;
 	printf(" Enter a number: \n");

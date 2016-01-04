@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int program16_3()
+int main()
 {
 	int varOne = 10;
 	int *pointOnePtr = &varOne;
